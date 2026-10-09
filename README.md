@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lennyklein/DevHub/refs/heads/main/DevHub/assets/Animierte%20DevHub-Banner.svg" alt="Animiertes DevHub-Banner" width="100%">
+</p>
+
 # 💙 DevHub
 
 Willkommen im Repository von **DevHub**!
@@ -24,6 +28,7 @@ Dieser Hinweis stellt keine allgemeine Nutzungslizenz dar. Die tatsächliche urh
 
 Werde Teil unserer Community:
 
-https://discord.gg/zZszzMDSnj
+[DevHub Discord](https://discord.gg/zZszzMDSnj)
 
+##
 💙 **Hier zählt nicht, was du kannst. Sondern dass du willkommen bist.**
