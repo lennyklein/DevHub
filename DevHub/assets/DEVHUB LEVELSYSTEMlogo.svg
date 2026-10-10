@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0b131a" />
+      <stop offset="100%" stop-color="#020406" />
+    </radialGradient>
+    
+    <!-- Neon Blue Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Outer Circle Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="100%" stop-color="#0055ff" />
+    </linearGradient>
+
+    <!-- Neon Blue Gradient for Elements & Text -->
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f7ff" />
+      <stop offset="50%" stop-color="#00b4d8" />
+      <stop offset="100%" stop-color="#0077b6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Main Circle -->
+  <circle cx="250" cy="250" r="240" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="8" />
+
+  <!-- Dashed Inner Ring -->
+  <circle cx="250" cy="250" r="225" fill="none" stroke="#00b4d8" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+
+  <!-- CENTER CONTENT GROUP -->
+  <!-- 1. Schild mit Trophäe -->
+  <g filter="url(#glow)" transform="translate(140, 65) scale(0.9)">
+    <!-- Äußeres Schild -->
+    <path d="M 120 20 C 180 20, 210 38, 210 75 C 210 145, 160 195, 120 230 C 80 195, 30 145, 30 75 C 30 38, 60 20, 120 20 Z" fill="#071b28" stroke="url(#neonBlue)" stroke-width="5" stroke-linejoin="round" />
+    
+    <!-- Trophäen-Henkel (Links & Rechts) -->
+    <path d="M 75 70 C 50 70, 50 110, 78 115" fill="none" stroke="url(#neonBlue)" stroke-width="6" stroke-linecap="round" />
+    <path d="M 165 70 C 190 70, 190 110, 162 115" fill="none" stroke="url(#neonBlue)" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Trophäen-Kelch & Sockel -->
+    <path d="M 80 60 L 160 60 L 148 130 C 148 142, 136 150, 120 150 C 104 150, 92 142, 92 130 Z" fill="url(#neonBlue)" opacity="0.85" />
+    <path d="M 80 60 L 160 60 L 148 130 C 148 142, 136 150, 120 150 C 104 150, 92 142, 92 130 Z" fill="none" stroke="#e0f7ff" stroke-width="4" stroke-linecap="round" />
+    <rect x="105" y="155" width="30" height="12" rx="3" fill="#e0f7ff" />
+    <line x1="95" y1="172" x2="145" y2="172" stroke="#e0f7ff" stroke-width="5" stroke-linecap="round" />
+  </g>
+
+  <!-- 2. Text (DEVHUB & LEVELSYSTEM) darunter zentriert -->
+  <g text-anchor="middle" filter="url(#glow)">
+    <text x="250" y="340" fill="#00d2ff" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="900" letter-spacing="4">DEVHUB</text>
+    <text x="250" y="380" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" letter-spacing="6">LEVELSYSTEM</text>
+  </g>
+</svg>
