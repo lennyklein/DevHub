@@ -14,15 +14,17 @@ Du musst kein Programmierer sein, um dazuzugehören. Bei uns sind Anfänger, Tec
 
 Im Ordner `assets/` findest du Grafiken und weitere Dateien rund um DevHub.
 
-## ©️ Urheberrecht und Nutzung der Grafiken
+## ©️ Urheberrecht und Nutzung
 
-Die in diesem Repository enthaltenen Grafiken und Designs wurden für DevHub erstellt, teilweise unter Verwendung von KI-gestützten Werkzeugen wie Google Gemini.
+**© 2026 Lenny Klein – DevHub. Alle Rechte vorbehalten, soweit gesetzlich geschützt.**
 
-Die Auswahl, Zusammenstellung und Verwendung der Grafiken für DevHub erfolgen durch mich.
+Die in diesem Repository enthaltenen Grafiken, Designs und Texte wurden für DevHub zusammengestellt oder erstellt, teilweise mithilfe KI-gestützter Werkzeuge wie Google Gemini.
 
-Bitte verwende, kopiere, bearbeite oder veröffentliche die bereitgestellten Dateien nicht ohne meine vorherige Zustimmung, soweit keine gesetzliche Erlaubnis besteht.
+Eine Erlaubnis zur Nutzung, Vervielfältigung, Bearbeitung oder Veröffentlichung der Inhalte wird durch dieses Repository nicht allgemein erteilt. Bitte hole vor einer solchen Nutzung meine Zustimmung ein, soweit keine gesetzliche Erlaubnis besteht.
 
-Dieser Hinweis stellt keine allgemeine Nutzungslizenz dar. Die tatsächliche urheberrechtliche Schutzfähigkeit einzelner KI-generierter Inhalte richtet sich nach den jeweils geltenden gesetzlichen Bestimmungen.
+Der urheberrechtliche Schutz KI-generierter Inhalte richtet sich nach den geltenden gesetzlichen Bestimmungen. Rein KI-generierte Inhalte sind nicht automatisch urheberrechtlich geschützt.
+
+Dieser Hinweis stellt keine allgemeine Nutzungslizenz dar.
 
 ## 🔗 Discord
 
