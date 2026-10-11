@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lennyklein/DevHub/refs/heads/main/DevHub/assets/Animierte%20DevHub-Banner.svg" alt="Animiertes DevHub-Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/lennyklein/DevHub/refs/heads/main/assets/Animierte%20DevHub-Banner.svg" alt="Animiertes DevHub-Banner" width="100%">
 </p>
 
 # 💙 DevHub
